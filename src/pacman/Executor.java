@@ -17,6 +17,7 @@ import pacman.controllers.examples.DFS_Controller_Rory_McGloin;
 import pacman.controllers.examples.Hill_Climber_Controller_Rory_McGloin;
 import pacman.controllers.examples.Legacy;
 import pacman.controllers.examples.Legacy2TheReckoning;
+import pacman.controllers.examples.Min_Max_Controller_Rory_McGloin;
 import pacman.controllers.examples.NearestPillPacMan;
 import pacman.controllers.examples.NearestPillPacManVS;
 import pacman.controllers.examples.RandomGhosts;
@@ -66,7 +67,7 @@ public class Executor
 //		exec.runGameTimed(new NearestPillPacMan(),new AggressiveGhosts(),visual);
 //		exec.runGameTimed(new StarterPacMan(),new StarterGhosts(),visual);
 //		exec.runGameTimed(new HumanController(new KeyBoardInput()),new StarterGhosts(),visual);	
-		exec.runGameTimed(new Hill_Climber_Controller_Rory_McGloin(), new StarterGhosts(), visual);
+		exec.runGameTimed(new Min_Max_Controller_Rory_McGloin(), new StarterGhosts(), visual);
 		//*/
 		
 		/*
